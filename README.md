@@ -1,16 +1,114 @@
-# React + Vite
+# Projeto Front Gtech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend desenvolvido em *React* e utilizando *Vite*
+O projeto foi criado com o objetivo de demonstrar habilidades em desenvolvimento *Front-End*, no ecossistema do JavaScript.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o Projeto
 
-## React Compiler
+O **Projeto Front Gtech** é uma aplicação front-end que apresenta a estrutura de um sistema web e boas práticas de desenvolvimento.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este projeto foi desenvolvido como parte do processo de aprendizado e evolução na área de **Desenvolvimento Web Full Stack**, aplicando conceitos utilizados em projetos reais de mercado.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologias Utilizadas
+
+* React
+* Vite
+* TailwindCSS
+* React Router
+* ESLint
+* Node.js / NPM
+
+---
+
+## Estrutura do Projeto
+
+```
+src
+ ├── assets        # Imagens e arquivos estáticos
+ ├── components    # Componentes reutilizáveis
+ ├── pages         # Páginas da aplicação
+ ├── routes        # Configuração de rotas
+ ├── services      # Integração com APIs
+ ├── App.jsx       # Componente principal
+ └── main.jsx      # Ponto de entrada da aplicação
+```
+
+---
+
+## Como executar o projeto
+
+Clone o repositório:
+
+```
+git clone https://github.com/RenatoRodox/Projeto_Front_Gtech.git
+```
+
+Entre na pasta do projeto:
+
+```
+cd Projeto_Front_Gtech
+```
+
+Instale as dependências:
+
+```
+npm install
+```
+
+Execute o projeto:
+
+```
+npm run dev
+```
+
+A aplicação será iniciada normalmente em:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Objetivos do Projeto
+
+* Praticar desenvolvimento com *React*
+* Utilizar ferramentas modernas do ecossistema *JavaScript*
+* Aplicar organização de código em projetos front-end
+* Criar um projeto de *portfólio profissional*
+
+---
+
+## Preview da aplicação
+
+*(Adicione aqui um print da aplicação quando estiver rodando)*
+
+```
+/preview.png
+```
+
+Exemplo:
+
+![preview](./preview.png)
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Renato Paiva**
+
+* Supervisor Técnico / Analista de Sistemas
+* Estudante de Desenvolvimento Full Stack
+* Em transição para carreira de **Desenvolvedor**
+
+GitHub:
+https://github.com/RenatoRodox
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.

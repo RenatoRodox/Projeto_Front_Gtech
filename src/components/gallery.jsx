@@ -80,7 +80,7 @@ const Gallery = ({ images, width = '100%', height = 'auto', radius = 'xl', showT
               src={image.src}
               alt={`Miniatura ${index + 1}`}
               className={`w-20 h-16 object-cover border-2 cursor-pointer transition ${
-                currentIndex === index ? 'border-pink-600' : 'border-transparent hover:border-gray-200'
+                currentIndex === index ? '' : 'border-transparent hover:border-gray-200'
               }`}
               onClick={() => setCurrentIndex(index)}
               style={{ borderRadius: radius === 'xl' ? '0.75rem' : radius }}

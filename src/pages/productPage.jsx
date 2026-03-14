@@ -119,7 +119,7 @@ const location = useLocation();
 
         <div className="flex justify-end mt-10 w-full border-t pt-6">
           <Link to="/pedidos" className="w-full sm:w-auto">
-            <button className="w-full sm:w-auto px-8 py-3 bg-pink-700 hover:bg-pink-800 text-white font-semibold rounded shadow-md transition-all active:scale-95">
+            <button className="w-full sm:w-auto px-8 py-3 bg-primary hover:bg-pink-800 text-white font-semibold rounded shadow-md transition-all active:scale-95">
               Ir para o carrinho
             </button>
           </Link>
